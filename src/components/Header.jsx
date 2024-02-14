@@ -3,9 +3,13 @@ import NavBar from "./NavBar"
 
 const Header = () => {
 return(
-    <div className="text-bg-light p-3">
-        <Logo/>
-        <NavBar/>
+    <div className=" conteiner text-bg-light p-3">
+        <div className="row">
+            <Logo/>
+        </div>
+        <div className="row">
+            <NavBar/>
+        </div>
     </div>
 )
 }

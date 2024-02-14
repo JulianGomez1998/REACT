@@ -7,34 +7,23 @@ import ChensoImg from "../assets/chenso.jpg"
 const Main = () => {
 
     return (
-        <div className="conteiner-fluid vh-100" >
-            {/* <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div className="conteiner-fluid">
+            <div className="row">
+                <div className="col-md-4">
+                    <img src={LoboImg} alt="lobo.img" />
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src={MegumiImg} class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src={LoboImg} class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src={ChensoImg} class="d-block w-100" alt="..." />
-                    </div>
+                <div className="col-md-4">
+                    <img src={MegumiImg} alt="megumi.img" />
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div> */}
-
+                <div className="col-md-4">
+                    <img src={ChensoImg} alt="chenso.img" />
+                </div>
+                <div className=" text-center text-bg-dark p-3 my-3">
+                    <h3 className="my-4"> Bienvenido a nuestra tienda online. Bienvenido a KAIZEN Clothing!</h3>
+                    <p className="">Somos una tienda dedicada a indumentaria de manga/anime.</p>
+                </div>
+                
+            </div>
         </div>
     )
 }
