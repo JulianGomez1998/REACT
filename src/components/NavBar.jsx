@@ -21,7 +21,7 @@ const NavBar = () => {
                             <Link className="nav-link text-bg-dark p-3 fs-5" to={"/"}>TODOS LOS PRODUCTOS</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-bg-dark p-3 fs-5" to={"/category/Remeras nevadas"}>REMERAS NEVADAS</Link>
+                            <Link className="nav-link text-bg-dark p-3 fs-5" to={"/category/Remerasnevadas"}>REMERAS NEVADAS</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-bg-dark p-3 fs-5" to={"/category/Remeras"}>REMERAS</Link>
@@ -30,10 +30,6 @@ const NavBar = () => {
                             <Link className="nav-link text-bg-dark p-3 fs-5" to={"/category/Shorts"}>SHORTS</Link>
                         </li>
                     </ul>
-                </div>
-                <div className="col text-end ">
-                    <a href="#" className="btn btn-white text-bg-dark p-3 fs-5">INICIAR SESION</a>
-                    <a href="#" className="btn btn-white text-bg-dark p-3 fs-5">REGISTRARSE</a>
                 </div>
             </div>
         </div>

@@ -1,8 +1,7 @@
-import { useState } from "react";
 import Item from "./item";
 
 const ItemList = ({items}) => {
-    // const [productos, setProductos] = useState(items);
+    
 
     return(
         <div className="conteiner">
